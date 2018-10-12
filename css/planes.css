@@ -1,0 +1,128 @@
+.container{
+	margin: 0 auto;
+	padding: 0;
+	width: 90%;
+	max-width: 1110px;
+	min-width: 780px;
+}
+.imag{
+	background: #fff;
+
+}
+.i1{
+	margin-left: 100px;
+}
+h1{
+	font-size: 30px;
+	margin-top: 50px;
+	margin-left: 100px;
+
+}
+h2{
+	color:  #f03562; 
+	margin-left: 200px;
+	margin-top: 50px;
+}
+.num{
+	border-bottom: none;
+	padding: 20px;
+}
+.container1{
+	margin: 0 auto;
+	width: 80%;
+}
+.cla1{
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 80%;
+	margin-left: 30px;
+}
+
+.Descrip{
+	color: #f03562;
+	font-size: 30px;
+	margin-left: 10px;
+	display: inline-block;
+}
+.caja{
+	display: inline;
+	float: right;
+	margin-right: 1050px;
+	margin-top: 0 auto;
+}
+.tipo{
+	display: inline;
+	
+
+}
+.parti{
+	display: inline;
+	color: #f03562;
+	font-size: 30px;
+	margin-left: 70px;
+
+}
+.empre{
+	display: inline;
+	color: #f03562;
+	font-size: 30px;
+	margin-left: 20%;
+}
+.pro, .prem, .grat{
+	background-color: #333232;
+	color: #fff;
+	margin-left: 10px;
+	padding: 20px;
+	display: inline-block;
+	float: right;
+	width: 120px;
+	height: 45px;
+	font-size: 15px;
+	text-align: ;
+}
+.num1, .num2, .num3{
+	float: left;
+	border-right: 1px solid #fff;
+	font-size: 60px;
+}
+.num1{
+	color: #4af028;
+	
+
+}
+.num2{
+	color: #f07b1e;
+}
+.num3{
+	color: #1af0ac;
+}
+table{
+	position: relative;
+	width: 65%;
+	left: -15%;
+	margin-right: 20%;
+	text-align: right;
+	margin-left: 20%;
+	margin-top: 20%;
+}
+tr, td{
+	width: 200px;
+	text-align: center;
+	border-bottom: 1px solid gray;
+	padding: 15px;
+	font-size: 15px;
+}
+strong{
+	font-size: 30px;
+}
+footer{
+	background: #000;
+	clear: both;
+	border-top: 10px solid #f03562;
+	color: #fff;
+	text-align: left;
+	padding: 30px;
+}
+
+
+     
