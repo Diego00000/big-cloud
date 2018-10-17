@@ -6,111 +6,96 @@
 	min-width: 780px;
 }
 .imag{
+	margin: 2px 20%;
+}
+.titu{
+	margin-left: 38%;
+}
+h2{
+	display: inline;
+	padding:  0 60px;
+	font-size: 20px;
+	color: #f03562;
+	font-family: 'Open Sans', sans-serif;
+}
+h1{
+	font-size: 50px;
+	font-family: 'Open Sans', sans-serif;
+}
+.imag{
 	background: #fff;
 
 }
 .i1{
 	margin-left: 100px;
 }
-h1{
-	font-size: 30px;
-	margin-top: 50px;
-	margin-left: 100px;
-
-}
-h2{
-	color:  #f03562; 
-	margin-left: 200px;
-	margin-top: 50px;
-}
-.num{
-	border-bottom: none;
-	padding: 20px;
-}
-.container1{
-	margin: 0 auto;
-	width: 80%;
-}
-.cla1{
-	background-repeat: no-repeat;
-	margin: 0 auto;
-	width: 80%;
-	margin-left: 30px;
-}
-
-.Descrip{
-	color: #f03562;
-	font-size: 30px;
-	margin-left: 10px;
-	display: inline-block;
-}
-.caja{
-	display: inline;
-	float: right;
-	margin-right: 1050px;
-	margin-top: 0 auto;
-}
-.tipo{
-	display: inline;
-	
-
-}
-.parti{
-	display: inline;
-	color: #f03562;
-	font-size: 30px;
-	margin-left: 70px;
-
-}
-.empre{
-	display: inline;
-	color: #f03562;
-	font-size: 30px;
-	margin-left: 20%;
-}
-.pro, .prem, .grat{
-	background-color: #333232;
-	color: #fff;
-	margin-left: 10px;
-	padding: 20px;
-	display: inline-block;
-	float: right;
-	width: 120px;
-	height: 45px;
-	font-size: 15px;
-	text-align: ;
-}
-.num1, .num2, .num3{
-	float: left;
-	border-right: 1px solid #fff;
-	font-size: 60px;
+.ambas{
+	background:#635352;
+	padding: 30px;
 }
 .num1{
-	color: #4af028;
-	
+	position: absolute;
+	font-size: 55px;
+	margin: -15px;
+	font-family: 'Heebo', sans-serif;
+	padding: 0 10px;
+	border-right: 2px solid white;
+}
+.pro{
+	position: static;
+	color: white;
+	margin-top: 20px;
+	margin-left: 45px;
+}
+#g{
+	color: #23D30F;
 
 }
-.num2{
-	color: #f07b1e;
+#p{
+    color: #FD6323;
 }
-.num3{
-	color: #1af0ac;
+#pr{
+    color: #1FD28D;
+}+
+.capa{
+	text-align: left;
 }
-table{
-	position: relative;
-	width: 65%;
-	left: -15%;
-	margin-right: 20%;
-	text-align: right;
-	margin-left: 20%;
-	margin-top: 20%;
+.boton{
+	width: 100px;
+	height: 18px;
+	background-color:#F51277;
+	color: #fff;
+	padding: 5px 10px;
+	margin: 20px 0;
+	margin-left: 63%;
+	text-decoration: none;
+	
+
+
 }
-tr, td{
-	width: 200px;
+#todo{
+	list-style: none;
+	
+}
+.icons{
+	position: fixed;
+	left: 0;
+	top: 300px;
+	z-index: 3000;
+	
+}
+
+
+.ul a{	
+	display: block;
+}
+
+
+td{
 	text-align: center;
 	border-bottom: 1px solid gray;
-	padding: 15px;
-	font-size: 15px;
+	padding: 10px 0;
+	
 }
 strong{
 	font-size: 30px;
@@ -123,6 +108,83 @@ footer{
 	text-align: left;
 	padding: 30px;
 }
+section{
+		background-color: #DFDFDF;
 
+	}
+	
+.ambas{
+		background: black;
+	}
+.boton{
+		text-decoration: none;
+		
+		color:white;
+	}
 
-     
+#face{
+	border-radius: 100%;
+	background-color:  #3b5998;
+	padding:  20px;
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+#tw{
+	border-radius: 100%;
+	background-color:   #1dcaff;
+	padding:  20px;
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+#gm{
+	border-radius: 100%;
+	background-color:   #d34836;
+	padding:  20px;
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+#pi{
+	border-radius: 100%;
+	background-color:   #c8232c;
+	padding:  20px;
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+#gmi{
+	border-radius: 100%;
+	background-color:  #DADADA;
+	padding:  20px;
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+li a{
+	display: block;
+	}    	
+
+ ul:hover a{
+	-moz-transform: scale(2) rotate(360deg);
+-webkit-transform: scale(2) rotate(360deg);
+-o-transform: scale(2) rotate(360deg);
+-ms-transform: scale(2) rotate(360deg);
+transform: scale(2) rotate(360deg);
+-webkit-transition: all 1000ms ease-in-out;
+-moz-transition: all 1000ms ease-in-out;
+-ms-transition: all 1000ms ease-in-out;
+-o-transition: all 1000ms ease-in-out;
+transition: all 1000ms ease-in-out;
+}    

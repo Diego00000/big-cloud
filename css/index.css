@@ -5,10 +5,9 @@
 	max-width: 1110px;
 	min-width: 780px;
 }
-
-.i1{
-display: block;
-padding: 0 550px;
+#log{
+	padding: 0 10%;
+	background-size: cover;
 
 }
 .new{
@@ -22,7 +21,7 @@ padding: 0 550px;
 
 
 }
-.contenido texto{
+.contenido{
 	position: relative;
 	display: inline-block;
 	text-align: center;
@@ -33,15 +32,22 @@ padding: 0 550px;
 .texto{
 	position: absolute;
 	top: 300px;
-	left: 350px;
-
-
-
-
+	margin: 60px;
+}
+.men{
+	margin: 0;
+	border: 0;
+}
+.tex{
+	margin: 0 100px;	
+	padding: 30px 200px;
 }
 h1{
-	font-size: 30px;
+	font-size: 50px;
 
+}
+h2{
+	font-size: 30px;
 }
 
 .cont{
@@ -67,24 +73,15 @@ footer{
 
 
 }
-.i2{
-	position: relative;
-	top: -80px;
-	left: -100px;
-	padding: 0 10%;
-	margin-bottom: 60px;
-	
-}
-article{
-	float: left;
-	margin-left:  500px;
-	padding: 40px;
-	
+
+.nueva{
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 footer a{
 	color: gray;
 }
-ul:hover {
+nav ul:hover {
 -moz-transform: scale(2) rotate(360deg);
 -webkit-transform: scale(2) rotate(360deg);
 -o-transform: scale(2) rotate(360deg);
